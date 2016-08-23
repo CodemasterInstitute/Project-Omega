@@ -2,152 +2,180 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--the above 3 meta tags *must* come first in the head; any other head content must come *after* these tags-->
 	<meta name="description" content="a possible solution for the omega website exercise using purecss">
 	<title>Project - Omega</title>
 	
-	<link href="css/styles.css" rel="stylesheet">
-	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.5/css/font-awesome.css">
+    <!--font style sheets -->
+    <link href="https://gonts.googleapis.com/css?family=Arimo" rel=stylesheet>
+    <script src="https://use.fontawesome.com/2ad26713b8.js"></script>
+    <!--site style sheets-->
+	<link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet">
+    <!--Line Icons -->
+   
 </head>
-<body>
-<div>
-    <div>
-    	<p>We Area Omega! We Build</p>
-        <h1>Breathtaking Apps</h1>
-        <p>
+<body class="container-wrap">
+<header class= "splash container">
+    <div class="splash-box">
+        <span class="fa-stack fa-lg">
+        <i class="fa fa-chrome fa-stack-2x"></i>
+        <i class="fa fa-circle fa-stack-1x text-white"></i>
+        </span>
+    	<p class="splash-para">We Area Omega! We Build</p>
+        <h1 class="splash-title">Breathtaking Apps</h1>
+        <p class="splash-para">
             With great attention to user experience &amp; performance
         </p>
         <p>
             <a href="#">Learn More</a>
         </p>
     </div>
-</div>
+</header>
 
-
-
-<div >
-    <div >
-        <div >
-        <a href="#"><span class="iconic" data-glyph="aperture" title="aperture" aria-hidden="true"></span></a>
-
-        <ul class="menu-list">
-           <li class="menu-item"><a class="menu-link" href="#home">HOME</a></li>
-           <li class="menu-item"><a class="menu-link" href="#about">ABOUT</a></li>
-            <li class="menu-item"><a class="menu-link" href="#what-we-do">WHAT WE DO</a></li>
-           <li class="menu-item"><a class="menu-link" href="#team">TEAM</a></li>
-          <li class="menu-item" ><a class="menu-link" href="#portfolio">PORTFOLIO</a></li>
-           <li class="menu-item"><a class="menu-link"  href="#pricing">PRICING</a></li>
-            <li class="menu-item"><a  class="menu-link" href="#clients">CLIENTS</a></li>
-           <li class="menu-item"><a  class="menu-link" href="#contact">CONTACT</a></li>
-        </ul>
-    </div>
-        <h2 class="content-head is-center">Excepteur sint occaecat cupidatat.</h2>
-
-        <div class="">
-            <div class="">
-
-                <h3 class="content-subhead">
-                    <i class="fa fa-rocket"></i>
-                    Get Started Quickly
-                </h3>
-                <p>
-                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                </p>
+<section>
+  <div class="container">
+    <h3>What we do</h3>
+    <hr class="section-hr" />
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+    <p>
+      CSS<br />
+      'section' if we're referring to an element type<br />
+      '.section' if referring to a css class name<br />
+      '#section' if referring to an element with an id of section
+    </p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <a class="list-item" href="#">
+            <div class="image-wrapper">
+              <img src="http://placehold.it/64x64">
             </div>
-            <div class="">
-                <h3 class="content-subhead">
-                    <i class="fa fa-mobile"></i>
-                    Responsive Layouts
-                </h3>
-                <p>
-                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                </p>
-            </div>
-            <div class="">
-                <h3 class="content-subhead">
-                    <i class="fa fa-th-large"></i>
-                    Modular
-                </h3>
-                <p>
-                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                </p>
-            </div>
-            <div class="">
-                <h3 class="content-subhead">
-                    <i class="fa fa-check-square-o"></i>
-                    Plays Nice
-                </h3>
-                <p>
-                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="">
-        <div class="">
-            <img class="img-responsive" alt="File Icons" width="300" src="img/common/file-icons.png">
-        </div>
-        <div class="">
-
-            <h2 class="content-head content-head-ribbon">Laboris nisi ut aliquip.</h2>
-
+            <h4>
+              Friendly Support
+            </h4>
+            <hr />
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
+          </a>
         </div>
-    </div>
-
-    <div class="content">
-        <h2 class="content-head is-center">Dolore magna aliqua. Uis aute irure.</h2>
-
-        <div class="g">
-            <div class="">
-                <form class="form form-stacked">
-                    <fieldset>
-
-                        <label for="name">Your Name</label>
-                        <input id="name" type="text" placeholder="Your Name">
-
-
-                        <label for="email">Your Email</label>
-                        <input id="email" type="email" placeholder="Your Email">
-
-                        <label for="password">Your Password</label>
-                        <input id="password" type="password" placeholder="Your Password">
-
-                        <button type="submit" class="button">Sign Up</button>
-                    </fieldset>
-                </form>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <a class="list-item" href="#">
+            <div class="image-wrapper">
+              <img src="http://placehold.it/64x64">
             </div>
-
-            <div class="">
-                <h4>Contact Us</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
-                </p>
-
-                <h4>More Information</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-            </div>
+            <h4>
+              Friendly Support
+            </h4>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
         </div>
-
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <a class="list-item" href="#">
+            <div class="image-wrapper">
+              <img src="http://placehold.it/64x64">
+            </div>
+            <h4>
+              Friendly Support
+            </h4>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <a class="list-item" href="#">
+            <div class="image-wrapper">
+              <img src="http://placehold.it/64x64">
+            </div>
+            <h4>
+              Friendly Support
+            </h4>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+        </div>
+      </div>
     </div>
-
-    <div class="footer is-center">
-        View the source of this layout to learn more. Made with love by the YUI Team.
+  </div>
+</section>
+<section class="section-black-bg">
+  <div class="container">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-3 list-item">
+          <div class="image-wrapper">
+            <img src="http://placehold.it/64x64">
+          </div>
+          <h4 class="large-heading">
+            54 100
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 list-item">
+          <div class="image-wrapper">
+            <img src="http://placehold.it/64x64">
+          </div>
+          <h4 class="large-heading">
+            127 403
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 list-item">
+          <div class="image-wrapper">
+            <img src="http://placehold.it/64x64">
+          </div>
+          <h4 class="large-heading">
+            367
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 list-item">
+          <div class="image-wrapper">
+            <img src="http://placehold.it/64x64">
+          </div>
+          <h4 class="large-heading">
+            251,060
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
     </div>
-
-</div>
+  </div>
+</section>
+<section>
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+</section>
+<section class="section-black-bg">
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+</section>
 
 </body>
 </html>

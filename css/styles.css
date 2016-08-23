@@ -1,0 +1,111 @@
+.container-wrap{
+	margin: 0 auto;
+	padding: 0;
+}
+.container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.text-white{
+	color: #fff;
+}
+
+.splash{
+  max-width: 1920px;
+  max-height: 900px;
+  background: url(../images/picjumbo.com_IMG_5540.png) top left no-repeat;
+  background-color: rgba(140, 199, 57, .5);
+  background-blend-mode: darken;
+  background-size: cover;
+  margin: 0 auto;
+
+}
+.splash-box{
+	max-width: 80%;
+	margin: 15em auto;
+
+}
+.splash-title{
+  font-family: 'Arimo', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+.splash-para{
+  font-family: 'Arimo', sans-serif;
+  color: #fff;
+}
+
+.section-black-bg {
+  background-color: black;
+  color: white;
+}
+
+section h3 {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+section .section-hr {
+  width: 40px;
+  margin: 20px 0 26px;
+  border-color: gray;
+}
+
+section p {
+  font-size: 20px;
+  color: gray;
+  margin-bottom: 40px;
+}
+
+.list-item .image-wrapper {
+  width: 128px;
+  margin: 0 auto;
+  padding: 32px 0;
+}
+
+.list-item .image-wrapper img {
+  width: 64px;
+  margin: 0 auto;
+  display: block;
+}
+
+.list-item h4 {
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.list-item h4.large-heading {
+  font-size: 32px;
+  color: white;
+}
+
+.list-item hr {
+  width: 40px;
+  border-color: aqua;
+}
+
+.list-item p {
+  font-size: 14px;
+  text-align: center;
+}
+
+a.list-item:hover .image-wrapper {
+  background-color: #8CC739;
+  border-radius: 64px;
+}
+
+a.list-item:hover h4 {
+  text-decoration: underline;
+}
+
+a.list-item:hover, a.list-item:link {
+  text-decoration: none;
+}
+
+
