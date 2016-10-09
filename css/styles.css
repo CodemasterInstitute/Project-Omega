@@ -13,36 +13,70 @@
 
 .splash{
   max-width: 1920px;
-  max-height: 900px;
-  background: url(../images/picjumbo.com_IMG_5540.png) top left no-repeat;
-  background-color: rgba(140, 199, 57, .5);
+  background: url(../images/picjumbo.com_IMG_5540.png)top left no-repeat, repeating-linear-gradient(-45deg, transparent, transparent 2px, rgba(255,255,255,.5) 2px, rgba(255,255,255,.5) 4px);
+  background-color: rgba(83, 129, 19, .5); 
   background-blend-mode: darken;
   background-size: cover;
+  opacity: 50%;
   margin: 0 auto;
 
 }
+
 .splash-box{
 	max-width: 80%;
 	margin: 15em auto;
 
 }
-.splash-title{
+
+.splash-icon{
+  width: 10%;
+  margin: 0 auto;
+  padding-bottom: 3em;
+  position: relative;
+  top: 50%;
+  left: 45%;
+
+}
+h1.splash-title{
   font-family: 'Arimo', sans-serif;
+  font-size: 5em;
   font-weight: bold;
   color: #fff;
+  text-transform: uppercase;
   text-align: center;
 }
-.splash-para{
+p.splash-para{
   font-family: 'Arimo', sans-serif;
+  font-size: 2em;
   color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
+.nav-color{
+  background-color: rgb(147, 199, 57);
+}
+.brand{
+  padding-bottom: 5px;
+}
+
+.navbar-nav li a:link{
+  color: #fff;
+  text-transform: uppercase;
+}
 .section-black-bg {
   background-color: black;
   color: white;
 }
 
-section h3 {
+.grey-ribbon{
+  background-color: #d3d3d3;
+  border: none;
+}
+
+section h2 {
   font-weight: bold;
   font-size: 14px;
 }
@@ -59,53 +93,31 @@ section p {
   margin-bottom: 40px;
 }
 
-.list-item .image-wrapper {
-  width: 128px;
-  margin: 0 auto;
-  padding: 32px 0;
-}
-
-.list-item .image-wrapper img {
-  width: 64px;
-  margin: 0 auto;
-  display: block;
-}
-
-.list-item h4 {
-  color: black;
+.panel-body{
   text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 16px;
-  margin-top: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+
 }
 
-.list-item h4.large-heading {
-  font-size: 32px;
-  color: white;
-}
-
-.list-item hr {
-  width: 40px;
-  border-color: aqua;
-}
-
-.list-item p {
-  font-size: 14px;
-  text-align: center;
-}
-
-a.list-item:hover .image-wrapper {
-  background-color: #8CC739;
+a i.fa, a span.glyphicon {
+  font-size: 2em;
+  color: #8CC739;
+  width: 2.5em;
+  height: 2.5em;
+  padding-top: .75em;
+  background-color: #fff;
   border-radius: 64px;
 }
 
-a.list-item:hover h4 {
-  text-decoration: underline;
-}
-
-a.list-item:hover, a.list-item:link {
-  text-decoration: none;
+a:hover i.fa, a:hover span.glyphicon {
+  font-size: 2em;
+  color: #fff;
+  width: 2.5em;
+  height: 2.5em;
+  padding-top: .75em;
+  background-color: #8CC739;
+  border-radius: 64px;
 }
 
 

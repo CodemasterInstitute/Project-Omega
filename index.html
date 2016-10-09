@@ -19,25 +19,54 @@
    
 </head>
 <body class="container-wrap">
-<header class= "splash container">
-    <div class="splash-box">
-        <img src="aperture.svg">
+<header class= "jumbotron splash">
+    <div class="splashbox">
+       <img src="images/icon-a.svg" class="splash-icon" />
     	<p class="splash-para">We Area Omega! We Build</p>
         <h1 class="splash-title">Breathtaking Apps</h1>
         <p class="splash-para">
             With great attention to user experience &amp; performance
         </p>
-        <p>
-            <a href="#">Learn More</a>
+        <p class="splash-para" style="text-align: center;">
+            <a href="#" class="btn btn-success btn-sml" role="button">Learn More</a>
         </p>
     </div>
 </header>
+<nav class="navbar navbar-default nav-color">
+  <div class="container-fluid">
+  <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand brand" href="#"><img src="images/icon-a.png" alt="Omega Logo" /></a>
+    </div>
+<!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">What We Do</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Clients</a></li>
+            <li><a href="#">Contact</a></li>
+
+      </ul>
+      </div>
+</nav>
 
 <section>
-  <div class="container">
-    <h3>What we do</h3>
-    <hr class="section-hr" />
-    <p>
+  <div class="container-fluid">
+    <h2>What we do</h2>
+    <hr class="section-hr" />    <img src="images/tb.png" style="float: right; width: 400px;"/>
+    <h3>We build breataking Apps &amp; never stop learning. Thats what we do.</h3>
+
+    <p style="clear: left;">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     </p>
     <p>
@@ -46,13 +75,29 @@
       '.section' if referring to a css class name<br />
       '#section' if referring to an element with an id of section
     </p>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <a class="list-item" href="#">
-            <div class="image-wrapper">
-              <img src="http://placehold.it/64x64">
-            </div>
+    </div>
+    <div class="container-fluid  grey-ribbon">
+    <h2>What we do</h2>
+    <hr class="section-hr" /> 
+    <h3>We're an energetic and determined team driven by results,
+committed to helping your business succeed.</h3>
+
+      <div class="panel panel-default  grey-ribbon">
+        <div class="panel-body col-xs-12 col-sm-6 col-md-3">
+          <a href="#">
+            <span class="glyphicon glyphicon-thumbs-up"></span>
+            <h4>
+              Unique Design
+            </h4>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+        </div>
+        <div class="panel-body col-xs-12 col-sm-6 col-md-3">
+          <a href="#">
+            <span class="glyphicon glyphicon-headphones"></span>
             <h4>
               Friendly Support
             </h4>
@@ -62,13 +107,11 @@
             </p>
           </a>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <a class="list-item" href="#">
-            <div class="image-wrapper">
-              <img src="http://placehold.it/64x64">
-            </div>
+        <div class="panel-body col-xs-12 col-sm-6 col-md-3">
+          <a href="#">
+            <span class="glyphicon glyphicon-star"></span>
             <h4>
-              Friendly Support
+              Creative Solution
             </h4>
             <hr />
             <p>
@@ -76,27 +119,11 @@
             </p>
           </a>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <a class="list-item" href="#">
-            <div class="image-wrapper">
-              <img src="http://placehold.it/64x64">
-            </div>
+        <div class="panel-body col-xs-12 col-sm-6 col-md-3">
+          <a href="#">
+            <i class="fa fa-cube"></i>
             <h4>
-              Friendly Support
-            </h4>
-            <hr />
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </a>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <a class="list-item" href="#">
-            <div class="image-wrapper">
-              <img src="http://placehold.it/64x64">
-            </div>
-            <h4>
-              Friendly Support
+              Out of the box ideas
             </h4>
             <hr />
             <p>
@@ -112,48 +139,40 @@
   <div class="container">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-3 list-item">
-          <div class="image-wrapper">
-            <img src="http://placehold.it/64x64">
-          </div>
-          <h4 class="large-heading">
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <span class="text-center"><i class="fa fa-heart"></i></span>
+          <h4 class="large-heading text-center">
             54 100
           </h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <p class="text-center">
+            Lovely Clients
           </p>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-3 list-item">
-          <div class="image-wrapper">
-            <img src="http://placehold.it/64x64">
-          </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <i class="fa fa-music"></i>
           <h4 class="large-heading">
             127 403
           </h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Listen to music
           </p>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-3 list-item">
-          <div class="image-wrapper">
-            <img src="http://placehold.it/64x64">
-          </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <i class="fa fa-trophy"></i>
           <h4 class="large-heading">
             367
           </h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Awards and Recognition
           </p>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-3 list-item">
-          <div class="image-wrapper">
-            <img src="http://placehold.it/64x64">
-          </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <i class="fa fa-download"></i>
           <h4 class="large-heading">
             251,060
           </h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Downloads
           </p>
         </div>
       </div>
